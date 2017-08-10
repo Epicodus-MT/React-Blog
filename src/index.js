@@ -1,12 +1,10 @@
-function liveTime() {
-  var greeting = React.createElement('h1', {}, 'Hello, World!');
-  var clock = React.createElement('h2', {}, `It is ${new Date().toLocaleTimeString()}`);
-  var app = React.createElement('div', {}, greeting, clock);
-
-  ReactDOM.render(
-    app,
-    document.getElementById('react-app-root')
-  );
-}
-
-setInterval(liveTime, 1000);
+ReactDOM.render(
+  <div>
+    <h1>Help Queue</h1>
+    <h2>{new Date().toLocaleTimeString()}</h2>
+    <h3>3a</h3>
+    <h3>Thato and Haley</h3>
+    <h3>4 mins</h3>
+  </div>,
+  document.getElementById('react-app-root')
+);
