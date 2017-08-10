@@ -5,6 +5,7 @@ ReactDOM.render(
     <h3>3a</h3>
     <h3>Thato and Haley</h3>
     <h3>4 mins</h3>
+    <p><em>Firebase won't save record</em></p>
   </div>,
   document.getElementById('react-app-root')
 );
